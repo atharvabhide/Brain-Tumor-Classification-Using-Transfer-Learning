@@ -1,11 +1,11 @@
 # Brain-Tumor-Classification-Using-Transfer-Learning
 
-## Brain Tumor MRI images have been classified into 4 classes by using Transfer Learning Models.
-### The classes are-
-### Glioma Tumor
-### Meningioma tumor
-### Pituatary tumor
-### No tumor
+Brain Tumor MRI images have been classified into 4 classes by using Transfer Learning Models.
+The classes are-
+1. Glioma Tumor
+2. Meningioma tumor
+3. Pituatary tumor
+4. No tumor
 
 Results-
 
