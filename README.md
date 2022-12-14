@@ -7,6 +7,8 @@ The classes are-
 3. Pituatary tumor
 4. No tumor
 
+Currently, the model is trained without data augmentation. In the future, data augmentation will be used on the training images to enhance the metrics.
+
 Results-
 
 | Model Name | Training Accuracy | Testing Accuracy |
