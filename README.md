@@ -1,4 +1,4 @@
-# Brain-Tumor-Classification-Using-Transfer-Learning
+# Brain Tumor Classification Using Transfer Learning
 
 Brain Tumor MRI images have been classified into 4 classes by using Transfer Learning Models.
 The classes are-
