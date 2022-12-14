@@ -18,3 +18,5 @@ Results-
 | Xception | 87.61% | 86.12% |
 | Resnet152V2 | 88.57% | 88.16% |
 | InceptionResnetV2 | 82.22% | 84.39% |
+
+<img src="https://github.com/atharvabhide/Brain-Tumor-Classification-Using-Transfer-Learning/blob/main/plots/inference_sample.png" alt="inference sample image">
