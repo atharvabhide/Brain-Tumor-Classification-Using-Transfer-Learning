@@ -56,28 +56,43 @@ if __name__ == "__main__":
 
         image_array = render_image_for_model(image)
 
-        prediction = predict(model, image_array)
+        st.markdown("<br>", unsafe_allow_html=True)
 
-        prediction = np.argmax(prediction, axis=1)[0]
+        col1, col2, col3 , col4, col5 = st.columns(5)
+        with col1:
+            pass
+        with col2:
+            pass
+        with col4:
+            pass
+        with col5:
+            pass
+        with col3 :
+            center_button = st.button('Predict')
 
-        if (prediction == 0):
-            st.markdown(
-                "<h1 style='text-align:center;'>Prediction is - Glioma tumor</h1>",
-                unsafe_allow_html=True
-            )
-        elif (prediction == 1):
-            st.markdown(
-                "<h1 style='text-align:center;'>Prediction is - Meningioma tumor</h1>",
-                unsafe_allow_html=True
-            )
-        elif (prediction == 2):
-            st.markdown(
-                "<h1 style='text-align:center;'>Prediction is - No tumor</h1>",
-                unsafe_allow_html=True
-            )
-        elif (prediction == 3):
-            st.markdown(
-                "<h1 style='text-align:center;'>Prediction is - Pituitary tumor</h1>",
-                unsafe_allow_html=True
-            )
+        if center_button:
+            prediction = predict(model, image_array)
+
+            prediction = np.argmax(prediction, axis=1)[0]
+
+            if (prediction == 0):
+                st.markdown(
+                    "<h1 style='text-align:center;'>Prediction is - Glioma tumor</h1>",
+                    unsafe_allow_html=True
+                )
+            elif (prediction == 1):
+                st.markdown(
+                    "<h1 style='text-align:center;'>Prediction is - Meningioma tumor</h1>",
+                    unsafe_allow_html=True
+                )
+            elif (prediction == 2):
+                st.markdown(
+                    "<h1 style='text-align:center;'>Prediction is - No tumor</h1>",
+                    unsafe_allow_html=True
+                )
+            elif (prediction == 3):
+                st.markdown(
+                    "<h1 style='text-align:center;'>Prediction is - Pituitary tumor</h1>",
+                    unsafe_allow_html=True
+                )
         
